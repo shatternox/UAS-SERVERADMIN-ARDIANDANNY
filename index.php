@@ -47,9 +47,8 @@
                     <td><?= $row['Alamat'] ?></td>
                     <td><?= $row['Jabatan'] ?></td>
                 </tr>
-                $counter = $counter + 1;
-                echo "test";
                 <?php
+                $counter = $counter + 1;
             }
             echo "<h1>Total Karyawan: {$counter}</h1>"; 
       ?>
