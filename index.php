@@ -38,7 +38,7 @@
       <?php
             $query = "SELECT * FROM users";
             $result = $connect->query($query);
-            
+            $counter = 0;
             while($row = $result->fetch_assoc()){
                 ?>
                 <tr>
@@ -47,9 +47,10 @@
                     <td><?= $row['Alamat'] ?></td>
                     <td><?= $row['Jabatan'] ?></td>
                 </tr>
-                echo "test23";
+                $counter = $counter + 1;
                 <?php
             }
+            echo "<h1>Total Karyawan: {$counter}</h1>"; 
       ?>
     </tbody>
 </table>      
