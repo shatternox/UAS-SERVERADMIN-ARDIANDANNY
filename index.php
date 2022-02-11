@@ -47,7 +47,7 @@
                     <td><?= $row['Alamat'] ?></td>
                     <td><?= $row['Jabatan'] ?></td>
                 </tr>
-                echo "test2";
+                echo "test23";
                 <?php
             }
       ?>
