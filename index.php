@@ -43,7 +43,7 @@
                 ?>
                 <tr>
                     <th scope="row"><?= $row['ID'] ?></th>
-                    <td><?= $row['Name'] ?></td>
+                    <td><?= $row['Nama'] ?></td>
                     <td><?= $row['Alamat'] ?></td>
                     <td><?= $row['Jabatan'] ?></td>
                 </tr>
