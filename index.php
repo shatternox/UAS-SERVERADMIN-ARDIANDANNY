@@ -50,7 +50,7 @@
                 <?php
                 $counter = $counter + 1;
             }
-            echo "<h1>Total Karyawan: {$counter}</h1>"; 
+            // echo "<h1>Total Karyawan: {$counter}</h1>"; 
       ?>
     </tbody>
 </table>      
